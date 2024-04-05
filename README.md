@@ -150,4 +150,12 @@ TotalGain: 全体の明るさを調整します。
 
 output_tensor = ( diffuse_tensor * (ambient_light + diffuse * NormalDiffuseStrength ) + specular_tensor * specular * SpecularHighlightsStrength) * TotalGain
 
+## 謝辞
+
+このカスタムノードは、とりにく(@tori29umai)さん、月須和・那々（@nana_tsukisuwa）さんが制作された、
+線画からノーマル生成するLoraに触発されて作成しました。
+
+お2人に、深い感謝の意を表します。
+
+
 

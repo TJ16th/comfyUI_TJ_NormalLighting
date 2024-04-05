@@ -7,6 +7,8 @@ Custom Node for comfyUI for virtual lighting based on normal map
 
 You can use normal maps to add virtual lighting effects to your images.
 
+<img width="350" alt="スクリーンショット 2024-04-06 043014" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/41109840-b337-4aef-b0bc-c1859ec060b9">
+
 https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/4b61cdf7-6e4e-4a69-91b7-10e8c692c76a
 
 https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/581fb547-6899-4421-afa9-c33c8919f049

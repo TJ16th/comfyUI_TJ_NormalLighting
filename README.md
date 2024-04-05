@@ -1,10 +1,15 @@
+### ※ 日本語は英文の後ろにあります
+
 # comfyUI_TJ_NormalLighting
 Custom Node for comfyUI for virtual lighting based on normal map
 
-## 日本語は英文の後ろにあります
+## What is this?
 
-<img src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/56e023f7-3c9a-4dbe-87cb-5d8165f2ce9f" title="sphere">
-https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/6348c878-8f63-4f1f-a296-327e6c008acc
+You can use normal maps to add virtual lighting effects to your images.
+
+https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/4b61cdf7-6e4e-4a69-91b7-10e8c692c76a
+
+https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/581fb547-6899-4421-afa9-c33c8919f049
 
 ## Please read first
 
@@ -75,6 +80,12 @@ output_tensor = ( diffuse_tensor * (ambient_light + diffuse * NormalDiffuseStren
 # 日本語解説
 
 ノーマルマップベースのバーチャルライティング機能を提供します。
+
+## これは何？
+
+ノーマルマップを使用して、画像にバーチャルな照明効果を与えることが出来ます
+
+## はじめに
 
 私はXRやAIなどのTechnologyを愛していますが、プログラミングの専門家ではありません。
 また、Githubで私のコードを公開するのは、これが初めてです。

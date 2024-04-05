@@ -3,6 +3,9 @@ Custom Node for comfyUI for virtual lighting based on normal map
 
 ## 日本語は英文の後ろにあります
 
+<img src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/56e023f7-3c9a-4dbe-87cb-5d8165f2ce9f" title="sphere">
+https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/6348c878-8f63-4f1f-a296-327e6c008acc
+
 ## Please read first
 
 I love technology such as XR and AI, but I'm not a programming expert.

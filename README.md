@@ -43,6 +43,10 @@ sample01_basic.json
 
 sample02_2lamplighting.json
 
+<img width="628" alt="03" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/71af278c-b93a-4a4f-ad9b-cad8961d4936">
+
+sample03_Animation.json
+
 ### input
 
 Please enter 3 images. Please keep the image sizes the same.
@@ -127,6 +131,10 @@ sample01_basic.json
 <img width="984" alt="image" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/2d45df17-7950-4801-9a8e-3809926a82c1">
 
 sample02_2lamplighting.json
+
+<img width="628" alt="03" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/71af278c-b93a-4a4f-ad9b-cad8961d4936">
+
+sample03_Animation.json
 
 ### 入力
 

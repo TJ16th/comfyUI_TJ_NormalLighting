@@ -46,8 +46,11 @@ sample02_2lamplighting.json
 ### input
 
 Please enter 3 images. Please keep the image sizes the same.
+
 diffuse_map: normal RGB image
+
 normal_map: Normal image. RGB images compatible with XYZ axes
+
 specular_map: Specular map. It's RGB. Reflected light can be colored
 
 ### Parameters
@@ -117,11 +120,22 @@ Githubのことは詳しくない。なので、何か間違えたら笑って�
 
 ## 使い方
 
+<img width="793" alt="image" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/c01180a8-f298-4164-8f25-6a8fc49a43b8">
+
+sample01_basic.json
+
+<img width="984" alt="image" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/2d45df17-7950-4801-9a8e-3809926a82c1">
+
+sample02_2lamplighting.json
+
 ### 入力
 
 3つの画像を入力してください。画像サイズは揃えてください。
+
 diffuse_map:通常のRGB画像
+
 normal_map:法線画像。XYZ軸に対応したRGB画像
+
 specular_map:スペキュラーマップ。RGBです。反射光に色を付けられます
 
 ### パラメータ

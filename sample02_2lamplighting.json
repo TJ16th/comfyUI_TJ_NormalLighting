@@ -1,0 +1,867 @@
+{
+  "last_node_id": 61,
+  "last_link_id": 100,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "EulerLightingNode",
+      "pos": [
+        925,
+        -1300
+      ],
+      "size": [
+        325,
+        250
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "diffuse_map",
+          "type": "IMAGE",
+          "link": 59,
+          "slot_index": 0
+        },
+        {
+          "name": "normal_map",
+          "type": "IMAGE",
+          "link": 58,
+          "slot_index": 1
+        },
+        {
+          "name": "specular_map",
+          "type": "IMAGE",
+          "link": 57,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            89
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EulerLightingNode"
+      },
+      "widgets_values": [
+        72,
+        10,
+        91,
+        0,
+        1,
+        5,
+        0.68
+      ]
+    },
+    {
+      "id": 46,
+      "type": "EulerLightingNode",
+      "pos": [
+        925,
+        -1000
+      ],
+      "size": {
+        "0": 325,
+        "1": 250
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "diffuse_map",
+          "type": "IMAGE",
+          "link": 60,
+          "slot_index": 0
+        },
+        {
+          "name": "normal_map",
+          "type": "IMAGE",
+          "link": 61,
+          "slot_index": 1
+        },
+        {
+          "name": "specular_map",
+          "type": "IMAGE",
+          "link": 62,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            90
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EulerLightingNode"
+      },
+      "widgets_values": [
+        -98,
+        10,
+        95,
+        0,
+        1,
+        5,
+        0.75
+      ]
+    },
+    {
+      "id": 52,
+      "type": "ImageEffectsAdjustment",
+      "pos": [
+        1275,
+        -1300
+      ],
+      "size": {
+        "0": 315,
+        "1": 250
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 89
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            91
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageEffectsAdjustment"
+      },
+      "widgets_values": [
+        1.09,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        0.81,
+        0.72,
+        1.33
+      ]
+    },
+    {
+      "id": 59,
+      "type": "PreviewBridge",
+      "pos": [
+        1625,
+        -1050
+      ],
+      "size": {
+        "0": 325,
+        "1": 300
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 93
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            94
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewBridge"
+      },
+      "widgets_values": [
+        "$undefined-0"
+      ]
+    },
+    {
+      "id": 58,
+      "type": "PreviewBridge",
+      "pos": [
+        1625,
+        -1400
+      ],
+      "size": [
+        325,
+        300
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 91
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            92
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewBridge"
+      },
+      "widgets_values": [
+        "$undefined-0"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "ImageEffectsAdjustment",
+      "pos": [
+        1275,
+        -1625
+      ],
+      "size": {
+        "0": 315,
+        "1": 250
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 82
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            95
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageEffectsAdjustment"
+      },
+      "widgets_values": [
+        0.5,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 60,
+      "type": "Reroute",
+      "pos": [
+        1867.3170911016698,
+        -1632.6888338739723
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 95
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            97
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 57,
+      "type": "ImageEffectsAdjustment",
+      "pos": [
+        2000,
+        -1000
+      ],
+      "size": {
+        "0": 315,
+        "1": 250
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 99
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            88
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageEffectsAdjustment"
+      },
+      "widgets_values": [
+        1.55,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 44,
+      "type": "SaveImage",
+      "pos": [
+        2350,
+        -1275
+      ],
+      "size": [
+        525,
+        500
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 88
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "LoadImage",
+      "pos": [
+        525,
+        -1075
+      ],
+      "size": {
+        "0": 325,
+        "1": 325
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            57,
+            62
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ComfyUI_01448_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [
+        525,
+        -1475
+      ],
+      "size": {
+        "0": 325,
+        "1": 325
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            58,
+            61
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ComfyUI_01446_ (1).png",
+        "image"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "LoadImage",
+      "pos": [
+        525,
+        -1875
+      ],
+      "size": {
+        "0": 325,
+        "1": 325
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            59,
+            60,
+            82,
+            100
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ComfyUI_01445_ (1).png",
+        "image"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "PreviewImage",
+      "pos": [
+        2350,
+        -1825
+      ],
+      "size": [
+        525,
+        475
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 100
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 48,
+      "type": "NegiTools_CompositeImages",
+      "pos": [
+        2000,
+        -1375
+      ],
+      "size": {
+        "0": 315,
+        "1": 122
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_B",
+          "type": "IMAGE",
+          "link": 97
+        },
+        {
+          "name": "image_F",
+          "type": "IMAGE",
+          "link": 92
+        },
+        {
+          "name": "mask_opt",
+          "type": "MASK",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            98
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NegiTools_CompositeImages"
+      },
+      "widgets_values": [
+        "lighten",
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "type": "NegiTools_CompositeImages",
+      "pos": [
+        2000,
+        -1175
+      ],
+      "size": {
+        "0": 315,
+        "1": 122
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_B",
+          "type": "IMAGE",
+          "link": 98
+        },
+        {
+          "name": "image_F",
+          "type": "IMAGE",
+          "link": 94
+        },
+        {
+          "name": "mask_opt",
+          "type": "MASK",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            99
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NegiTools_CompositeImages"
+      },
+      "widgets_values": [
+        "screen",
+        1
+      ]
+    },
+    {
+      "id": 51,
+      "type": "ImageEffectsAdjustment",
+      "pos": [
+        1275,
+        -1000
+      ],
+      "size": {
+        "0": 315,
+        "1": 250
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 90
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            93
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageEffectsAdjustment"
+      },
+      "widgets_values": [
+        1,
+        1,
+        1,
+        0.5,
+        1,
+        1,
+        1.16,
+        0.53,
+        0.14
+      ]
+    }
+  ],
+  "links": [
+    [
+      57,
+      15,
+      0,
+      1,
+      2,
+      "IMAGE"
+    ],
+    [
+      58,
+      2,
+      0,
+      1,
+      1,
+      "IMAGE"
+    ],
+    [
+      59,
+      14,
+      0,
+      1,
+      0,
+      "IMAGE"
+    ],
+    [
+      60,
+      14,
+      0,
+      46,
+      0,
+      "IMAGE"
+    ],
+    [
+      61,
+      2,
+      0,
+      46,
+      1,
+      "IMAGE"
+    ],
+    [
+      62,
+      15,
+      0,
+      46,
+      2,
+      "IMAGE"
+    ],
+    [
+      82,
+      14,
+      0,
+      54,
+      0,
+      "IMAGE"
+    ],
+    [
+      88,
+      57,
+      0,
+      44,
+      0,
+      "IMAGE"
+    ],
+    [
+      89,
+      1,
+      0,
+      52,
+      0,
+      "IMAGE"
+    ],
+    [
+      90,
+      46,
+      0,
+      51,
+      0,
+      "IMAGE"
+    ],
+    [
+      91,
+      52,
+      0,
+      58,
+      0,
+      "IMAGE"
+    ],
+    [
+      92,
+      58,
+      0,
+      48,
+      1,
+      "IMAGE"
+    ],
+    [
+      93,
+      51,
+      0,
+      59,
+      0,
+      "IMAGE"
+    ],
+    [
+      94,
+      59,
+      0,
+      47,
+      1,
+      "IMAGE"
+    ],
+    [
+      95,
+      54,
+      0,
+      60,
+      0,
+      "*"
+    ],
+    [
+      97,
+      60,
+      0,
+      48,
+      0,
+      "IMAGE"
+    ],
+    [
+      98,
+      48,
+      0,
+      47,
+      0,
+      "IMAGE"
+    ],
+    [
+      99,
+      47,
+      0,
+      57,
+      0,
+      "IMAGE"
+    ],
+    [
+      100,
+      14,
+      0,
+      61,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

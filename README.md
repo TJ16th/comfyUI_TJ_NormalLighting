@@ -34,6 +34,15 @@ The inner product of the half vector (intermediate vector between the direction 
 
 ## How to use
 
+
+<img width="793" alt="image" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/c01180a8-f298-4164-8f25-6a8fc49a43b8">
+
+sample01_basic.json
+
+<img width="984" alt="image" src="https://github.com/TJ16th/comfyUI_TJ_NormalLighting/assets/30209833/2d45df17-7950-4801-9a8e-3809926a82c1">
+
+sample02_2lamplighting.json
+
 ### input
 
 Please enter 3 images. Please keep the image sizes the same.
